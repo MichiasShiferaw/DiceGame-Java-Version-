@@ -63,3 +63,7 @@ public class DiceGame {
 
     // One more trial that you took is added to the total
     counter += 1;
+    System.out.println("You guessed the random number! It only took " + counter
+                       + " tries to get it.");
+  }
+}  
