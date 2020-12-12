@@ -35,4 +35,7 @@ public class DiceGame {
       //Inform the user that the guessed number was not equivalent to the hidden number       
       System.out.print("That number is incorrect! ");
 
-
+      //Using the random function I will use it to output different responses
+      Random reponses = new Random();
+      int options;
+      options = reponses.nextInt(6);
