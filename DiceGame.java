@@ -39,3 +39,27 @@ public class DiceGame {
       Random reponses = new Random();
       int options;
       options = reponses.nextInt(6);
+      if (options == 0) {
+        System.out.println("Almost!!");
+      }
+      if (options == 1) {
+        System.out.println("I feel like it is the next one.");
+      }
+      if (options == 2) {
+        System.out.println("You got this");
+      }
+      if (options == 3) {
+        System.out.println("C'mon");
+      }
+      if (options == 4) {
+        System.out.println("We are very warm!!");
+      }
+      if (options == 5) {
+        System.out.println("Next one for sure!");
+      }
+      //Ask for an user input again
+      guess = userInput.nextInt();
+    }
+
+    // One more trial that you took is added to the total
+    counter += 1;
